@@ -56,8 +56,10 @@ call SetFgColor("CursorLineNr", s:cursorlineNr)
 call SetBgColor("CursorLineNr", s:cursorLine)
 
 " GUI
-call SetBgColor("VertSplit", s:blackLight1)
-call SetFgColor("VertSplit", s:background)
+call SetBgColor("VertSplit",    s:blackLight1)
+call SetFgColor("VertSplit",    s:background)
+call SetFgColor("StatusLine",   s:blackLight1)
+call SetFgColor("StatusLineNC", s:black)
 
 " Auto completion
 call SetBgColor("Pmenu", s:blackDarker1)
