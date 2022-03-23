@@ -92,6 +92,18 @@ call SetFgColor("Operator",    s:operator)
 call SetFgColor("Boolean",     s:boolean)
 call SetFgColor("Keyword",     s:keyword)
 
+" GitGutter
+call SetBgColor("GitGutterAdd", s:background)
+call SetFgColor("GitGutterAdd", s:green)
+
+call SetBgColor("GitGutterChange", s:background)
+call SetFgColor("GitGutterChange", s:cyan)
+
+call SetBgColor("GitGutterDelete", s:background)
+call SetFgColor("GitGutterDelete", s:red)
+
 " NvimTree
 call SetBgColor("NvimTreeNormal", s:blackDarker1)
 call SetFgColor("NvimTreeEndOfBuffer", s:blackDarker1)
+call SetFgColor("NvimTreeFolderName", s:blue)
+call SetFgColor("NvimTreeOpenedFolderName", s:blue)
