@@ -40,6 +40,9 @@ endfunction
 call SetBgColor("Normal", s:background)
 call SetFgColor("Normal", s:foreground)
 
+call SetBgColor("Search", s:orange)
+call SetFgColor("Search", s:blackLight1)
+
 call SetBgColor("Visual", s:visualSel)
 
 " Comment
@@ -106,6 +109,16 @@ call SetFgColor("GitGutterDelete", s:red)
 
 " NvimTree
 call SetBgColor("NvimTreeNormal", s:blackDarker1)
+call SetFgColor("NvimTreeNormal", s:white)
 call SetFgColor("NvimTreeEndOfBuffer", s:blackDarker1)
-call SetFgColor("NvimTreeFolderName", s:blue)
-call SetFgColor("NvimTreeOpenedFolderName", s:blue)
+call SetFgColor("NvimTreeFolderName", s:white)
+call SetFgColor("NvimTreeFolderIcon", s:blue)
+call SetFgColor("NvimTreeOpenedFolderName", s:white)
+call SetFgColor("NvimTreeOpenedFile", s:green)
+" Whichkey
+call SetBgColor("WhichKeyFloating", s:blackDarker1)
+
+" Coc
+call SetBgColor("CocUnusedHighlight", "none")
+call SetFgColor("CocUnusedHighlight", s:comments)
+
